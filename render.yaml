@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: adaptkgrag
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health

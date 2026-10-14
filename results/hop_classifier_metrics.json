@@ -1,0 +1,60 @@
+{
+  "n_examples": 39093,
+  "accuracy": 0.9999488399457703,
+  "precision_macro": 0.9999533015784067,
+  "recall_macro": 0.9999440755747258,
+  "f1_macro": 0.999948685721829,
+  "precision_weighted": 0.9999488471130517,
+  "recall_weighted": 0.9999488399457703,
+  "f1_weighted": 0.9999488406647583,
+  "per_class": {
+    "1": {
+      "precision": 1.0,
+      "recall": 0.999899467176033,
+      "f1": 0.9999497310611773,
+      "support": 9947
+    },
+    "2": {
+      "precision": 1.0,
+      "recall": 0.9999327595481442,
+      "f1": 0.9999663786437145,
+      "support": 14872
+    },
+    "3": {
+      "precision": 0.9998599047352199,
+      "recall": 1.0,
+      "f1": 0.9999299474605955,
+      "support": 14274
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      1,
+      2,
+      3
+    ],
+    "matrix": [
+      [
+        9946,
+        0,
+        1
+      ],
+      [
+        0,
+        14871,
+        1
+      ],
+      [
+        0,
+        0,
+        14274
+      ]
+    ]
+  },
+  "classification_report": "              precision    recall  f1-score   support\n\n           1     1.0000    0.9999    0.9999      9947\n           2     1.0000    0.9999    1.0000     14872\n           3     0.9999    1.0000    0.9999     14274\n\n    accuracy                         0.9999     39093\n   macro avg     1.0000    0.9999    0.9999     39093\nweighted avg     0.9999    0.9999    0.9999     39093\n",
+  "train_size": 329282,
+  "artifacts": {
+    "vectorizer": "C:\\sem7pro\\models\\hop_tfidf_vectorizer.joblib",
+    "model": "C:\\sem7pro\\models\\hop_logreg.joblib"
+  }
+}
